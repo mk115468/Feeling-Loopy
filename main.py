@@ -18,8 +18,8 @@ print(sum)"""
 
 #EXCERCISE 3
 highest=0
-total_score=0
 for i in range(3):
+  total_score=0
   for i in range(3):
     myscore= int(input("what is yourscore 1-300: "))
     while myscore < 0 or myscore > 300:
@@ -28,5 +28,6 @@ for i in range(3):
     total_score += myscore
   if highest < total_score:
     highest = total_score
-  total_score=0
-print(highest)
+
+  print("total score is: " , total_score)
+print("highest score is: " , highest)
