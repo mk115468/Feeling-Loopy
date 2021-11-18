@@ -14,7 +14,6 @@ for i in range(value+1):
   sum=sum+i
 print(sum)"""
 
-
 """#EXCERCISE 3
 highest=0
 for i in range(3):
@@ -49,3 +48,23 @@ while not complete:
  else:
    print("enter valid input")"""
   
+"""#EXERCISE 5
+for i in range(3):
+  print("No homework tonight")
+  for i in range(i+1):
+    print("please")"""
+
+"""#EXERCISE 6
+import random 
+points=0
+correct = True 
+while correct: 
+  flip = random.randint(0,1) 
+  result = int(input("Heads/Tails?(h=1/t=0) ")) 
+  if flip != result: 
+    print("Incorrect") 
+    correct = False
+  else:
+    print("Correct")
+    points+=1 
+print("You were right",points,"times.")"""
