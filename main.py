@@ -5,8 +5,7 @@ for i in range(2,15,3):
 num = 2
 while num < 15:
   print(num)
-  num = num + 3
-"""
+  num = num + 3"""
 
 """#EXCERCISE 2
 sum = 0
@@ -28,7 +27,6 @@ for i in range(3):
     total_score += myscore
   if highest < total_score:
     highest = total_score
-
   print("total score is: " , total_score)
 print("highest score is: " , highest)"""
 
